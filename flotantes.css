@@ -1,0 +1,25 @@
+.icon{
+    display: inline-block;
+    font-size: 88px;
+    animation: float 5s ease-in-out infinite;
+    
+}
+.fa-brands   {
+    animation-delay: 1s;
+  color: blue;
+}
+.fa-brands  {
+    animation-delay: 2s;
+    color: rgb(187, 42, 88);
+}
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
